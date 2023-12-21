@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<title>Report a Pothole</title>
+
+<link href="desktops.css" rel="stylesheet" media="screen and (min-width:769px)"/>
+<link href="tablet.css" rel="stylesheet" media="screen and (min-width:481px) and (max-width:768px)"/>
+<link href="mobile.css" rel="stylesheet" media="screen and (max-width:480px)"/>
+<script src = "database.js"></script>
+
+<body>
+
+  <div class="topnav">
+    <h3>
+    <a href="index.html">Home</a>
+    <a href="report.html">Report Page</a>
+    <a href="activedatabase.html">Active Database</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    </h3>
+  </div>
+
+<h2>Pothole Reporter</h2>
+
+<form action="activedatabase.html">
+  <label for="fname">On Street*:</label><br>
+  <input type="text" id="onstreet" placeholder="Washington Street" required><br><br>
+  <label for="lname">From Street*:</label><br>
+  <input type="text" id="fstreet" placeholder ="3rd Street"required><br><br>
+   <label for="lname">To Street*:</label><br>
+  <input type="text" id="tstreet" placeholder ="4th Street" required><br><br>
+  <label for="lname">Approximate Size*:</label><br>
+  <input type="text" id="size" placeholder ="4 feet by 4 feet" required><br><br>
+  <label for="lname">Additional Comments:</label><br>
+  <input type="text" id="comments"><br>
+  <p>* = Required</p>
+  <input onclick = "getdata()" type="submit" value="Submit"><br><br>
+  
+  <h3><a href="activedatabase.html">View Pothole Database</a></h3>
+  
+</form> 
+
+</body>
+</html>
+
+
+

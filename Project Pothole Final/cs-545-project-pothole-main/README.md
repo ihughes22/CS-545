@@ -1,0 +1,3 @@
+# CS 545 Project Pothole
+
+Hi and welcome to our CS 545 Project! To use our website, please download the Zip file from Gitlab. The main page of the website is index.html, which will allow you to reach all other pages of the website. contact.html and about.html are just fun additions to the website! The main functionality of our website resides within report.html and activedatabase.html. Put your report information into the form, and when you hit submit, it should be added to the database. You can add as many potholes as you would like. When we finish "reparing" a pothole, we will manually remove it. Friendly reminder that since we did not have access to host a real database, all data is stored to the local host. 
